@@ -48,8 +48,7 @@ import Home from './pages/Home'*/
   );
 }*/
 
-/*export default App*/
-
+/*export default App
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -74,4 +73,23 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
+
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import { BrowserRouter as Router } from 'react-router-dom';
+import './App.css'
+import MainRouter from './MainRouter';
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <Router>
+      <MainRouter />
+    </Router>
+  )
+}
+
+export default App
