@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-
+/*Home page with mission statment*/
 function Home() {
    return (
     <>
