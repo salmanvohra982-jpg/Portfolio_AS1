@@ -4,9 +4,11 @@ import image_logo from "../assets/logo.svg"
 function Layout() {
     return (
         <>
-            <h1>My Portfolio</h1>
+            <div className='header'>
+              <img src={image_logo} alt="Logo" className='logo'/>
+              <h1 className='heading'>My Portfolio</h1>
+             </div>
             <nav className="navbar">
-                <img src={image_logo} alt="Logo" className='logo'/>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>

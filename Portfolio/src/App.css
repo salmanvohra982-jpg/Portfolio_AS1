@@ -1,8 +1,18 @@
 #root {
-  max-width: 1280px;
+  max-width: 50%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.header img {
+  float: left;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
 .logo {
@@ -11,7 +21,7 @@
   will-change: filter;
   transition: filter 300ms;
 
-  width: 40px;
+  width: 25%;
   height: auto;
   margin-right: 1rem;
 }
@@ -75,10 +85,13 @@
 }
 
 .navbar {
-  display: flex;
+  /*grid-area: nav;*/
+  display: flax;
   align-items: center;
   background-color: #1a1a1a; /* change to your preferred color */
   padding: 0.5rem 1rem;
+  text-align: left;
+ /* margin-left: 27%;*/
 }
 
 .navbar a {
@@ -91,4 +104,9 @@
 
 .navbar a:hover {
   color: #ffcc00; /* highlight color */
+}
+
+.Home{
+  text-align: left;
+  padding: 10px;
 }
