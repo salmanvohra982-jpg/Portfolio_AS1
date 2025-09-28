@@ -25,14 +25,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-/*display: grid;
-grid-template-rows: 0.5fr 0.3fr 1fr;
-grid-template-areas: 
-"logo"
-"heading"
-"nav"
-"contant";*/
-  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -42,8 +34,6 @@ h1 {
   line-height: 1.1;
   display: flex;
   color: #ffcc00;
- /* color: #e6bfff;*/
-  /*width: 50%;*/
 }
 
 button {
